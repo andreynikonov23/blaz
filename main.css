@@ -152,6 +152,7 @@ ul li{
     font-size: 14px;
     color: var(--black);
     cursor: pointer;
+    margin-bottom: 18px;
 }
 .text-blocks{
     margin-top: 40px;
@@ -201,6 +202,12 @@ input{
 }
 .ht3{
     margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.fa-search{
+    margin-top: 10px;
+    cursor: pointer;
 }
 .list-block{
     display: flex;
@@ -215,4 +222,31 @@ input{
     color: var(--text-color);
     padding: 0;
     padding-top: 0px;
+}
+.download-block .text{
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.points{
+    width: 20px;
+    border-bottom: 3px dotted var(--date-color);
+    margin-bottom: 12px;
+}
+.bold-text{
+    color: var(--black);
+}
+.action-bar{
+    color: var(--date-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+}
+.action-bar .fa{
+    margin-left: 5px;
+    cursor: pointer;
+}
+.fa-comment{
+    margin-right: 15px;
 }
